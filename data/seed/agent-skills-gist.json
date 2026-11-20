@@ -1,0 +1,336 @@
+[
+  {
+    "id": "skills/serp-agents",
+    "kind": "skills",
+    "name": "SERP Agents skill",
+    "blurb": "Internally handcrafted AI agents for SERP & SERP AI business needs - everything from sales, to ops, to automation.",
+    "url": "https://serp.ly/serp-agents",
+    "tags": [
+      "agents",
+      "automation",
+      "sales",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/relay-app",
+    "kind": "skills",
+    "name": "Relay.app skill",
+    "blurb": "No-code platform for building AI workflows with drag-and-drop tools and pre-built templates.",
+    "url": "https://serp.ly/relay.app",
+    "tags": [
+      "agents",
+      "automation",
+      "code",
+      "no-code",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/superagi",
+    "kind": "skills",
+    "name": "SuperAGI skill",
+    "blurb": "An open-source framework for developing and deploying autonomous AI agents with scalability in mind.",
+    "url": "https://serp.ly/superagi",
+    "tags": [
+      "agents",
+      "open-source",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/auto-gpt",
+    "kind": "skills",
+    "name": "Auto-GPT skill",
+    "blurb": "An experimental AI agent that autonomously achieves user-defined goals using GPT-4.",
+    "url": "https://serp.ly/agpt",
+    "tags": [
+      "agents",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/agentgpt",
+    "kind": "skills",
+    "name": "AgentGPT skill",
+    "blurb": "A browser-based platform for configuring and deploying AI agents directly from the web.",
+    "url": "https://serp.ly/agentgpt",
+    "tags": [
+      "agents",
+      "browser",
+      "code",
+      "no-code",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/babyagi",
+    "kind": "skills",
+    "name": "BabyAGI skill",
+    "blurb": "A simplified AI agent framework that autonomously performs tasks leveraging GPT models.",
+    "url": "https://serp.ly/babyagi",
+    "tags": [
+      "agents",
+      "automation",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/crewai",
+    "kind": "skills",
+    "name": "CrewAI skill",
+    "blurb": "A Python framework for orchestrating role-playing AI agents in collaborative tasks.",
+    "url": "https://serp.ly/crewai",
+    "tags": [
+      "agents",
+      "multi-agent",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/autogen",
+    "kind": "skills",
+    "name": "AutoGen skill",
+    "blurb": "A multi-agent framework facilitating the development of diverse AI agents capable of complex interactions.",
+    "url": "https://serp.ly/autogen",
+    "tags": [
+      "agents",
+      "multi-agent",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/gpt-engineer",
+    "kind": "skills",
+    "name": "GPT Engineer skill",
+    "blurb": "An AI agent that generates entire codebases based on user prompts using GPT models.",
+    "url": "https://serp.ly/lovable.dev",
+    "tags": [
+      "agents",
+      "code",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/gumloop",
+    "kind": "skills",
+    "name": "Gumloop skill",
+    "blurb": "Advanced no-code automation platform for marketing teams, supporting multi-LLM workflows.",
+    "url": "https://gumloop.com",
+    "tags": [
+      "agents",
+      "automation",
+      "code",
+      "marketing",
+      "no-code",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/langchain",
+    "kind": "skills",
+    "name": "LangChain skill",
+    "blurb": "Context-aware agents with task chaining, memory management, and API/database integration.",
+    "url": "https://langchain.com",
+    "tags": [
+      "agents",
+      "automation",
+      "data",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/salesforce-agentforce",
+    "kind": "skills",
+    "name": "Salesforce Agentforce skill",
+    "blurb": "CRM-centric platform for automating lead scoring, follow-ups, and multi-channel deployments.",
+    "url": "https://salesforce.com/agentforce",
+    "tags": [
+      "agents",
+      "automation",
+      "crm",
+      "sales",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/vertex-ai-agent-builder-google",
+    "kind": "skills",
+    "name": "Vertex AI Agent Builder (Google) skill",
+    "blurb": "Enterprise-scale platform for deploying AI agents with natural language interfaces and Python frameworks.",
+    "url": "https://cloud.google.com/vertex-ai",
+    "tags": [
+      "agents",
+      "enterprise",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/openai-s-operator",
+    "kind": "skills",
+    "name": "OpenAI's Operator skill",
+    "blurb": "An AI agent capable of browsing the web and booking travel tickets autonomously.",
+    "url": "https://serp.ly/openai",
+    "tags": [
+      "agents",
+      "automation",
+      "browser",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/butterfly-effect-s-manus",
+    "kind": "skills",
+    "name": "Butterfly Effect's Manus skill",
+    "blurb": "Analyzes stocks and creates websites, showcasing versatility in financial analysis and web development.",
+    "url": "https://serp.ly/butterflyeffect",
+    "tags": [
+      "agents",
+      "automation",
+      "browser",
+      "finance",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/fellow",
+    "kind": "skills",
+    "name": "Fellow skill",
+    "blurb": "Automates meeting transcription, summaries, and follow-ups with 90+ language support.",
+    "url": "https://fellow.app",
+    "tags": [
+      "agents",
+      "automation",
+      "productivity",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/hubspot-breeze",
+    "kind": "skills",
+    "name": "HubSpot Breeze skill",
+    "blurb": "AI-driven sales prospecting and outreach automation with lead scoring and email campaigns.",
+    "url": "https://hubspot.com/breeze",
+    "tags": [
+      "agents",
+      "automation",
+      "sales",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/devin",
+    "kind": "skills",
+    "name": "Devin skill",
+    "blurb": "Autonomous coding agent for writing/testing code in parallel with Jira/Notion integration.",
+    "url": "https://devin.ai",
+    "tags": [
+      "agents",
+      "automation",
+      "code",
+      "research",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/tableau-agent",
+    "kind": "skills",
+    "name": "Tableau Agent skill",
+    "blurb": "Analyzes data trends and generates predictive insights via natural language queries.",
+    "url": "https://tableau.com",
+    "tags": [
+      "agents",
+      "data",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/deepseek-agent",
+    "kind": "skills",
+    "name": "DeepSeek Agent skill",
+    "blurb": "Autonomous financial/market analysis agent with multi-modal inputs and code execution.",
+    "url": "https://deepseek.com",
+    "tags": [
+      "agents",
+      "code",
+      "finance",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/nvidia-eureka",
+    "kind": "skills",
+    "name": "Nvidia Eureka skill",
+    "blurb": "Trains robotics skills (e.g., object manipulation) using GPT-4-driven learning.",
+    "url": "https://nvidia.com/eureka",
+    "tags": [
+      "agents",
+      "robotics",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/anthropic-claude-3-5",
+    "kind": "skills",
+    "name": "Anthropic Claude 3.5 skill",
+    "blurb": "Desktop automation agent for software navigation and web browsing.",
+    "url": "https://anthropic.com",
+    "tags": [
+      "agents",
+      "automation",
+      "browser",
+      "desktop",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/eliza",
+    "kind": "skills",
+    "name": "Eliza skill",
+    "blurb": "Decentralized blockchain agent for Ethereum/Solana apps with multimodal plugins.",
+    "url": "https://eliza.xyz",
+    "tags": [
+      "agents",
+      "automation",
+      "crypto",
+      "skill"
+    ],
+    "past": false
+  },
+  {
+    "id": "skills/relevance-ai",
+    "kind": "skills",
+    "name": "Relevance AI skill",
+    "blurb": "Platform for building AI agents to automate research and writing tasks.",
+    "url": "https://serp.ly/relevanceai",
+    "tags": [
+      "agents",
+      "automation",
+      "research",
+      "skill"
+    ],
+    "past": false
+  }
+]

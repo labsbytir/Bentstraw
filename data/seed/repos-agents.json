@@ -1,0 +1,370 @@
+[
+  {
+    "id": "repos/plimo",
+    "kind": "repos",
+    "name": "Plimo",
+    "blurb": "Make AI images and videos in one simple place",
+    "url": "https://plimo.ai/pricing",
+    "tags": [
+      "agents",
+      "repos",
+      "video"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/wearai",
+    "kind": "repos",
+    "name": "WearAI",
+    "blurb": "Create and prepare product visuals in one place",
+    "url": "https://wearai.net/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/wiseppc",
+    "kind": "repos",
+    "name": "WisePPC",
+    "blurb": "See Amazon profit, stock, and ads in one place",
+    "url": "https://wiseppc.com/",
+    "tags": [
+      "agents",
+      "ecommerce",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/veo3-ai",
+    "kind": "repos",
+    "name": "Veo3 AI",
+    "blurb": "Turn ideas or images into finished videos with AI",
+    "url": "https://www.veo3ai.io/",
+    "tags": [
+      "agents",
+      "repos",
+      "video"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/xfuze-order-intake-agentic-application",
+    "kind": "repos",
+    "name": "Xfuze Order Intake Agentic Application",
+    "blurb": "Automatically checks orders and sends clean ones to your ERP.",
+    "url": "https://www.xiatech.io/platform/agents/xfuze-order-intake-agentic-application",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/nova-mcp",
+    "kind": "repos",
+    "name": "Nova MCP",
+    "blurb": "Ask AI questions about your Amazon business",
+    "url": "https://novadata.io/amazon-mcp-server",
+    "tags": [
+      "agents",
+      "ecommerce",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/amw-suite",
+    "kind": "repos",
+    "name": "AMW Suite",
+    "blurb": "Run sales, support, and customer work in one place",
+    "url": "https://amworldgroup.com/software/suite",
+    "tags": [
+      "agents",
+      "repos",
+      "sales"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/datadoe",
+    "kind": "repos",
+    "name": "DataDoe",
+    "blurb": "Connect Amazon data to AI that can take action",
+    "url": "https://www.datadoe.com/",
+    "tags": [
+      "agents",
+      "data",
+      "ecommerce",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/flowdit",
+    "kind": "repos",
+    "name": "flowdit",
+    "blurb": "Digital inspections and tasks for frontline teams",
+    "url": "https://flowdit.com/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/aider",
+    "kind": "repos",
+    "name": "Aider",
+    "blurb": "Your AI coding partner in the terminal.",
+    "url": "https://github.com/Aider-AI/aider",
+    "tags": [
+      "agents",
+      "code",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/agent-zero",
+    "kind": "repos",
+    "name": "Agent Zero",
+    "blurb": "Agent Zero: A free, self-contained AI that works like a digital helper.",
+    "url": "https://agent-zero.ai/",
+    "tags": [
+      "agents",
+      "free",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/jan-ai",
+    "kind": "repos",
+    "name": "Jan AI",
+    "blurb": "Run open-source AI on your computer for private chats.",
+    "url": "https://www.jan.ai/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/void",
+    "kind": "repos",
+    "name": "Void",
+    "blurb": "Open source AI code editor: write code with smart AI, full control.",
+    "url": "https://github.com/voideditor/void",
+    "tags": [
+      "agents",
+      "code",
+      "open-source",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/corvinos",
+    "kind": "repos",
+    "name": "CorvinOS",
+    "blurb": "A private, self-hosted operating system to run your own AI agents.",
+    "url": "https://corvin-labs.com/",
+    "tags": [
+      "agents",
+      "open-source",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/anijam",
+    "kind": "repos",
+    "name": "Anijam",
+    "blurb": "Make animations easily with AI, from your idea to the final film.",
+    "url": "https://www.anijam.ai/",
+    "tags": [
+      "agents",
+      "repos",
+      "video"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/blackbox-ai",
+    "kind": "repos",
+    "name": "Blackbox AI",
+    "blurb": "BLACKBOX AI: Your AI coding assistant for faster development.",
+    "url": "https://www.blackbox.ai/",
+    "tags": [
+      "agents",
+      "code",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/openrouter",
+    "kind": "repos",
+    "name": "OpenRouter",
+    "blurb": "One API to use many AI models with better prices and reliability.",
+    "url": "https://openrouter.ai/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/rox",
+    "kind": "repos",
+    "name": "Rox",
+    "blurb": "Rox AI uses smart agents to automate sales tasks, boosting revenue.",
+    "url": "https://www.rox.com/",
+    "tags": [
+      "agents",
+      "repos",
+      "sales"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/self-operating-computer",
+    "kind": "repos",
+    "name": "Self-Operating Computer",
+    "blurb": "AI that controls your computer like a human to do tasks for you.",
+    "url": "https://www.hyperwriteai.com/self-operating-computer",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/crewai",
+    "kind": "repos",
+    "name": "CrewAI",
+    "blurb": "Automate complex tasks with AI agents working together.",
+    "url": "https://www.crewai.com/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/openhands",
+    "kind": "repos",
+    "name": "OpenHands",
+    "blurb": "OpenHands helps engineers automate repetitive coding tasks.",
+    "url": "https://openhands.dev/",
+    "tags": [
+      "agents",
+      "code",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/tavily",
+    "kind": "repos",
+    "name": "Tavily",
+    "blurb": "Tavily connects AI agents to the web for real-time information.",
+    "url": "https://github.com/tavily-ai",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/gumloop",
+    "kind": "repos",
+    "name": "Gumloop",
+    "blurb": "Automate tasks with AI, no code needed. Drag, drop, done!",
+    "url": "https://www.gumloop.com/",
+    "tags": [
+      "agents",
+      "code",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/crepal",
+    "kind": "repos",
+    "name": "CrePal",
+    "blurb": "CrePal is an AI video tool that makes creating videos easy and fast.",
+    "url": "https://crepal.ai/",
+    "tags": [
+      "agents",
+      "repos",
+      "video"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/lm-studio",
+    "kind": "repos",
+    "name": "LM Studio",
+    "blurb": "Run AI models on your computer for free and keep your data private.",
+    "url": "https://lmstudio.ai/",
+    "tags": [
+      "agents",
+      "data",
+      "free",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/jasper-ai",
+    "kind": "repos",
+    "name": "Jasper AI",
+    "blurb": "Jasper helps marketers create content faster and easier using AI.",
+    "url": "https://www.jasper.ai/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/project-astra",
+    "kind": "repos",
+    "name": "Project Astra",
+    "blurb": "Google's AI assistant that sees, hears, and understands your world.",
+    "url": "https://deepmind.google/models/project-astra/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/pieces",
+    "kind": "repos",
+    "name": "Pieces",
+    "blurb": "Pieces AI remembers everything you work on, automatically.",
+    "url": "https://pieces.app/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "repos/kokoro-tts",
+    "kind": "repos",
+    "name": "Kokoro TTS",
+    "blurb": "Turn your text into natural, high-quality voices across many languages.",
+    "url": "https://kokorottsai.com/",
+    "tags": [
+      "agents",
+      "repos"
+    ],
+    "past": false
+  }
+]

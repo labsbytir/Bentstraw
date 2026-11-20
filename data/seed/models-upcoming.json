@@ -1,0 +1,107 @@
+[
+  {
+    "id": "models/plimo",
+    "kind": "models",
+    "name": "Plimo",
+    "blurb": "Make AI images and videos in one simple place",
+    "url": "https://plimo.ai/pricing",
+    "tags": [
+      "agents",
+      "future",
+      "models",
+      "repos",
+      "video"
+    ],
+    "past": false
+  },
+  {
+    "id": "models/veo3-ai",
+    "kind": "models",
+    "name": "Veo3 AI",
+    "blurb": "Turn ideas or images into finished videos with AI",
+    "url": "https://www.veo3ai.io/",
+    "tags": [
+      "agents",
+      "future",
+      "models",
+      "repos",
+      "video"
+    ],
+    "past": false
+  },
+  {
+    "id": "models/nova-mcp",
+    "kind": "models",
+    "name": "Nova MCP",
+    "blurb": "Ask AI questions about your Amazon business",
+    "url": "https://novadata.io/amazon-mcp-server",
+    "tags": [
+      "agents",
+      "ecommerce",
+      "future",
+      "models",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "models/jan-ai",
+    "kind": "models",
+    "name": "Jan AI",
+    "blurb": "Run open-source AI on your computer for private chats.",
+    "url": "https://www.jan.ai/",
+    "tags": [
+      "agents",
+      "future",
+      "models",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "models/void",
+    "kind": "models",
+    "name": "Void",
+    "blurb": "Open source AI code editor: write code with smart AI, full control.",
+    "url": "https://github.com/voideditor/void",
+    "tags": [
+      "agents",
+      "code",
+      "future",
+      "models",
+      "open-source",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "models/openrouter",
+    "kind": "models",
+    "name": "OpenRouter",
+    "blurb": "One API to use many AI models with better prices and reliability.",
+    "url": "https://openrouter.ai/",
+    "tags": [
+      "agents",
+      "future",
+      "models",
+      "repos"
+    ],
+    "past": false
+  },
+  {
+    "id": "models/lm-studio",
+    "kind": "models",
+    "name": "LM Studio",
+    "blurb": "Run AI models on your computer for free and keep your data private.",
+    "url": "https://lmstudio.ai/",
+    "tags": [
+      "agents",
+      "data",
+      "free",
+      "future",
+      "models",
+      "repos"
+    ],
+    "past": false
+  }
+]
