@@ -4,3 +4,4 @@ public/orama.json
 data/bentstraw/
 data/raw/
 .env
+# build artifact, regenerate via npm run search-index
