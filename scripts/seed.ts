@@ -1,0 +1,11 @@
+import { PGlite } from '@electric-sql/pglite';
+import seed from '../data/seed.json' with { type: 'json' };
+
+// shortcut: plain tables, no pgvector yet — Orama owns vectors; add vector ext when dims lock.
+const db = new PGlite('./data/bentstraw/');
+await db.exec(`CREATE TABLE IF NOT EXISTS items (id TEXT PRIMARY KEY, kind TEXT, name TEXT, blurb TEXT, tags JSONB, past BOOLEAN, views INT DEFAULT 0);`);
+for (const r of seed as any[]) {
+  await db.query(`INSERT INTO items (id,kind,name,blurb,tags,past) VALUES ($1,$2,$3,$4,$5,$6) ON CONFLICT (id) DO UPDATE SET name=$3, blurb=$4, tags=$5`, [r.id, r.kind, r.name, r.blurb, JSON.stringify(r.tags), r.past]);
+}
+const n = await db.query(`SELECT count(*) FROM items`);
+console.log('seeded', (n.rows[0] as any).count);

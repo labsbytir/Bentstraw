@@ -1,0 +1,18 @@
+---
+import '../styles.css';
+---
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Search — Bentstraw</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap">
+</head><body>
+<nav class="top"><a class="brand" href="/">Bentstraw</a><a href="/quiz/">Quiz</a><a href="/search/">Search</a></nav>
+<h1>Search</h1><p class="meta">Orama full-text now, vector when 384-dim embeddings land.</p>
+<p><input id="q" placeholder="e.g. forgotten os, agent browser, embeddings…"></p><div id="hits" class="grid"></div>
+<footer><a href="/">← back</a></footer>
+<script type="module">
+import { create, load, search } from 'https://cdn.jsdelivr.net/npm/@orama/orama@latest/+esm';
+const db=create({schema:{id:'string',kind:'string',name:'string',blurb:'string',tags:'string[]'}});
+await load(db,await fetch('/orama.json').then(r=>r.json()));
+const q=document.getElementById('q'), hits=document.getElementById('hits');
+q.oninput=async()=>{ if(!q.value){hits.innerHTML='';return;} const r=await search(db,{term:q.value,limit:20}); hits.innerHTML=r.hits.map(h=>`<div class="card"><h3>${h.document.name}</h3><p>${h.document.blurb}</p><p class="meta">${h.document.id}</p></div>`).join(''); };
+</script>
+</body></html>

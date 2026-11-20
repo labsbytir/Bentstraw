@@ -1,0 +1,10 @@
+[
+  {"id":"tools/plan9","kind":"tools","name":"Plan 9","blurb":"Forgotten Bell Labs OS — namespaces everywhere.","tags":["os","past","namespaces"],"past":true},
+  {"id":"tools/gopher","kind":"tools","name":"Gopher","blurb":"Pre-web protocol, still alive via portals.","tags":["protocol","past","minimal"],"past":true},
+  {"id":"tools/tinygrad","kind":"tools","name":"tinygrad","blurb":"Minimal ML framework for tomorrow's hardware.","tags":["ml","future","python"],"past":false},
+  {"id":"skills/agent-browser","kind":"skills","name":"agent-browser skill","blurb":"Give agents a text browser.","tags":["agents","skill","browser"],"past":false},
+  {"id":"skills/wayback","kind":"skills","name":"wayback skill","blurb":"Dig up forgotten docs and APIs.","tags":["agents","skill","archive"],"past":true},
+  {"id":"repos/awesome-gemini","kind":"repos","name":"awesome-gemini","blurb":"Curated Gemini-era repos.","tags":["repos","list"],"past":false},
+  {"id":"models/gte-small","kind":"models","name":"gte-small","blurb":"384-dim embeddings, runs anywhere.","tags":["models","embeddings","384"],"past":false},
+  {"id":"models/mixtral-arch","kind":"models","name":"Upcoming MoE","blurb":"Tomorrow's open MoE to watch.","tags":["models","future","moe"],"past":false}
+]

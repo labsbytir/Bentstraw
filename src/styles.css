@@ -1,0 +1,14 @@
+:root{color-scheme:dark;--fg:#e8e8e8;--mut:#9a9a9a}
+body{font-family:'Fira Code',ui-monospace,monospace;background:#000;color:var(--fg);max-width:900px;margin:0 auto;padding:1.5rem 1rem}
+a{color:#fff}
+nav.top{display:flex;gap:1rem;flex-wrap:wrap;border-bottom:1px solid #8884;padding-bottom:.8rem;margin-bottom:1.5rem}
+nav.top a{text-decoration:none;color:inherit}
+nav.top a.brand{font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin:1rem 0}
+.card{border:1px solid #8884;border-radius:8px;padding:1rem}
+.card p{font-size:.9rem;opacity:.85}
+.btn{display:inline-block;margin:.3rem .3rem 0 0;padding:.4rem .9rem;border:1px solid #fff;border-radius:6px;text-decoration:none;color:inherit;background:none;font-size:.9rem;cursor:pointer}
+.btn.primary{background:#fff;color:#000;font-weight:700}
+input,select{width:100%;padding:.5rem .7rem;border:1px solid #8886;border-radius:8px;font:inherit;background:#000;color:var(--fg);margin:.5rem 0}
+.meta{font-size:.85rem;opacity:.75}
+footer{margin-top:3rem;font-size:.8rem;opacity:.7;border-top:1px solid #8884;padding-top:1rem}
