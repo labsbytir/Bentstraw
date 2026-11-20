@@ -2,9 +2,9 @@
 
 ## 1. Workspace and host
 
-- [ ] 1.1 Add `Reference Site Templates/` to `.gitignore` and verify `git status` does not list those HTML files as staged
-- [ ] 1.2 Add `Host bentstraw` to `~/.ssh/config` (HostName `151.241.100.47`, User root, IdentityFile `~/.ssh/prod_penny`, IdentitiesOnly yes) and verify `ssh bentstraw 'hostname'` prints `workflows.harvy.dev`
-- [ ] 1.3 Extend `~/.config/bentstraw/proxy.env` with `DECODO_PORTS=10001-10015` and verify the file mode stays `600` and the password is not in the repo (`git grep -n oj1Ahfo` returns nothing)
+- [x] 1.1 Add `Reference Site Templates/` to `.gitignore` and verify `git status` does not list those HTML files as staged
+- [x] 1.2 Add `Host bentstraw` to `~/.ssh/config` (HostName `151.241.100.47`, User root, IdentityFile `~/.ssh/prod_penny`, IdentitiesOnly yes) and verify `ssh bentstraw 'hostname'` prints `workflows.harvy.dev`
+- [x] 1.3 Extend `~/.config/bentstraw/proxy.env` with `DECODO_PORTS=10001-10015` and verify the file mode stays `600` and the password is not in the repo (`git grep -n oj1Ahfo` returns nothing)
 
 ## 2. Astro server shell
 
