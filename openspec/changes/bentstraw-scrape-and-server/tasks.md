@@ -1,21 +1,21 @@
 # Tasks
 
-- [ ] 1. Universal scraper + prompt bundles (promptden, youmind, promptbase-free)
+- [x] 1. Universal scraper + prompt bundles (promptden, youmind, promptbase-free)
   - universal.py (fetch_many, robots, rate limit, proxy env, resume), adapters → `data/seed/prompts-*.json`
   - Verify: `python3 scripts/scrape/universal.py --help` works; each bundle file has ≥20 rows with id/url/tags; no creds in output (`grep -ri decodo data/seed` empty); seed+index+build pass.
-- [ ] 2. Agent/repo/model bundles (ai-agents gist, aiagentslist agents)
+- [x] 2. Agent/repo/model bundles (ai-agents gist, aiagentslist agents)
   - Adapters → `data/seed/agent-skills-*.json`, `repos-*.json`, `models-*.json`
   - Verify: same row/schema checks; search "browser" returns skill hits.
-- [ ] 3. MCP aiagentslist bundle
+- [x] 3. MCP aiagentslist bundle
   - Adapter → `data/seed/mcp-aiagentslist.json` with install snippets where present
   - Verify: row checks; search "filesystem" returns MCP hits.
-- [ ] 4. Glama MCP pages part 1 (first third, paginated + resume)
+- [x] 4. Glama MCP pages part 1 (first third, paginated + resume)
   - Adapter with `--page-range/--resume` → `data/seed/mcp-glama-p1.json`
   - Verify: re-run skips saved pages; ≥50 rows.
-- [ ] 5. Glama MCP pages part 2 (second third)
+- [x] 5. Glama MCP pages part 2 (second third)
   - Same adapter, next range → `data/seed/mcp-glama-p2.json`; verify as Task 4.
-- [ ] 6. Glama MCP pages part 3 (final third)
+- [x] 6. Glama MCP pages part 3 (final third)
   - Same adapter, final range → `data/seed/mcp-glama-p3.json`; verify as Task 4.
-- [ ] 7. Ingest + index + server config
+- [x] 7. Ingest + index + server config
   - seed.ts reads all `data/seed/*.json`; rebuild orama; add `Caddyfile` (bentstraw.com, reverse-proxy/file-server, auto TLS) + `systemd/bentstraw.service`
   - Verify: `npm run seed && npm run search-index && npm run build` green; `caddy validate`; `openspec validate bentstraw-scrape-and-server` green.
