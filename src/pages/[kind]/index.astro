@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import { isKind, itemsByKind } from '../../lib/catalog';
+
+const kind = Astro.params.kind ?? '';
+if (!isKind(kind)) {
+  Astro.response.status = 404;
+}
+const rows = isKind(kind) ? await itemsByKind(kind) : [];
+---
+<Base title={`${kind} — Bentstraw`}>
+  {isKind(kind) ? (
+    <>
+      <h1>{kind}</h1>
+      <p><input id="q" placeholder={`search ${kind}`} autocomplete="off" /></p>
+      <div class="grid" id="grid">
+        {rows.map((row) => (
+          <a class="card" href={`/${row.id}/`} data-name={row.name.toLowerCase()}>
+            <h3>{row.name}</h3>
+            <p>{row.blurb}</p>
+          </a>
+        ))}
+      </div>
+      {rows.length === 0 && <p class="meta">No {kind} yet.</p>}
+      <script>
+        const q = document.getElementById('q');
+        q?.addEventListener('input', () => {
+          const term = (q as HTMLInputElement).value.toLowerCase();
+          document.querySelectorAll('#grid .card').forEach((card) => {
+            const name = card.getAttribute('data-name') || '';
+            (card as HTMLElement).style.display = name.includes(term) ? '' : 'none';
+          });
+        });
+      </script>
+    </>
+  ) : (
+    <h1>Not found</h1>
+  )}
+</Base>

@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { findItem, isKind } from '../../lib/catalog';
+
+const kind = Astro.params.kind ?? '';
+const slug = Astro.params.id ?? '';
+const item = isKind(kind) ? await findItem(kind, slug) : undefined;
+if (!item) Astro.response.status = 404;
+const showOwner = kind === 'icons' || kind === 'mcp';
+---
+<Base title={item ? `${item.name} — Bentstraw` : 'Not found'}>
+  {item ? (
+    <article class="card">
+      <h1>{item.name}</h1>
+      <p class="meta">{item.kind} · {item.url ? <a href={item.url}>source</a> : 'no source'}</p>
+      <p>{item.blurb}</p>
+      {item.install && <pre class="install">{item.install}</pre>}
+      {showOwner && <p class="meta">icons and names belong to their owners — listed to refer, not to sell</p>}
+    </article>
+  ) : (
+    <h1>Not found</h1>
+  )}
+</Base>

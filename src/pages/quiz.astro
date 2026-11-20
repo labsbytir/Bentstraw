@@ -1,27 +1,25 @@
 ---
-import '../styles.css';
+import Base from '../layouts/Base.astro';
 ---
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quiz — Bentstraw</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap">
-</head><body>
-<nav class="top"><a class="brand" href="/">Bentstraw</a><a href="/quiz/">Quiz</a><a href="/search/">Search</a></nav>
-<h1>Match quiz</h1>
-<p class="meta">3 questions → matched tools + skills.</p>
-<label>1. Past or future?<select id="a1"><option value="past">forgotten past</option><option value="future">tomorrow's tech</option></select></label>
-<label>2. What for?<select id="a2"><option value="agents">agent skills</option><option value="ml">models / ml</option><option value="os">tools / os</option></select></label>
-<label>3. Vibe?<select id="a3"><option value="minimal">minimal</option><option value="browser">browser</option><option value="embeddings">embeddings</option></select></label>
-<p><button class="btn primary" id="go">Match me</button></p>
-<div id="out" class="grid"></div>
-<footer><a href="/">← back</a></footer>
-<script type="module">
-import { create, load, search } from 'https://cdn.jsdelivr.net/npm/@orama/orama@latest/+esm';
-const db=create({schema:{id:'string',kind:'string',name:'string',blurb:'string',tags:'string[]'}});
-await load(db,await fetch('/orama.json').then(r=>r.json()));
-document.getElementById('go').onclick=async()=>{
-  const a1=document.getElementById('a1').value, a2=document.getElementById('a2').value, a3=document.getElementById('a3').value;
-  const term=[a1,a2,a3].join(' ');
-  const r=await search(db,{term,limit:4});
-  document.getElementById('out').innerHTML=r.hits.map(h=>`<div class="card"><h3>${h.document.name}</h3><p>${h.document.blurb}</p><p class="meta">${h.document.id}</p></div>`).join('')||'<p>No match — try again.</p>';
-};
-</script>
-</body></html>
+<Base title="Quiz — Bentstraw">
+  <h1>Match quiz</h1>
+  <p class="meta">3 questions → matched tools + skills.</p>
+  <label>1. Past or future?<select id="a1"><option value="past">forgotten past</option><option value="future">tomorrow's tech</option></select></label>
+  <label>2. What for?<select id="a2"><option value="agents">agent skills</option><option value="ml">models / ml</option><option value="os">tools / os</option></select></label>
+  <label>3. Vibe?<select id="a3"><option value="minimal">minimal</option><option value="browser">browser</option><option value="embeddings">embeddings</option></select></label>
+  <p><button class="btn primary" id="go">Match me</button></p>
+  <div id="out" class="grid"></div>
+  <script type="module">
+    import { create, load, search } from 'https://cdn.jsdelivr.net/npm/@orama/orama@latest/+esm';
+    const db = create({ schema: { id: 'string', kind: 'string', name: 'string', blurb: 'string', tags: 'string[]' } });
+    await load(db, await fetch('/orama.json').then((r) => r.json()));
+    document.getElementById('go').onclick = async () => {
+      const term = ['a1', 'a2', 'a3'].map((id) => document.getElementById(id).value).join(' ');
+      const r = await search(db, { term, limit: 4 });
+      const out = document.getElementById('out');
+      out.innerHTML = r.hits.length
+        ? r.hits.map((h) => `<div class="card"><h3><a href="/${h.document.id}/">${h.document.name}</a></h3><p>${h.document.blurb}</p><p class="meta">${h.document.id}</p></div>`).join('')
+        : '<p>Nothing matched. <a href="/search/">Search the catalog</a>.</p>';
+    };
+  </script>
+</Base>

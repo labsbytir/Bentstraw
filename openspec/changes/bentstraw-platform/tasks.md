@@ -8,10 +8,10 @@
 
 ## 2. Astro server shell
 
-- [ ] 2.1 Switch `astro.config.mjs` to `output: 'server'` with `@astrojs/node` standalone and `@astrojs/react`, install deps, and verify `npm run build` exits 0
-- [ ] 2.2 Add `src/layouts/Base.astro` with the nav and tokens from design.md and verify `/` renders black background, Fira Code, and links to Quiz, Search, Stats, and each kind index
-- [ ] 2.3 Add shared kind index and detail routes for prompts, skills, repos, models, mcp, and icons, and verify an unknown id returns 404
-- [ ] 2.4 Add the owner-attribution line on icon and MCP detail and verify it is present in the rendered HTML
+- [x] 2.1 Switch `astro.config.mjs` to `output: 'server'` with `@astrojs/node` standalone and `@astrojs/react`, install deps, and verify `npm run build` exits 0
+- [x] 2.2 Add `src/layouts/Base.astro` with the nav and tokens from design.md and verify `/` renders black background, Fira Code, and links to Quiz, Search, Stats, and each kind index
+- [x] 2.3 Add shared kind index and detail routes for prompts, skills, repos, models, mcp, and icons, and verify an unknown id returns 404
+- [x] 2.4 Add the owner-attribution line on icon and MCP detail and verify it is present in the rendered HTML
 
 ## 3. Bosbase on PGlite
 
