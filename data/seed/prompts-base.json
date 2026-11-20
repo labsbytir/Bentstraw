@@ -1,0 +1,271 @@
+[
+  {
+    "id": "prompts/base-psychedelic-neon-comic",
+    "kind": "prompts",
+    "name": "Psychedelic Neon Comic Characters",
+    "blurb": "Neon comic-style character art prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "comic",
+      "midjourney",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-handdrawn-travel-posters",
+    "kind": "prompts",
+    "name": "Handdrawn Ink Travel Posters",
+    "blurb": "Ink-style vintage travel poster prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "poster",
+      "promptbase",
+      "travel"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-psychedelic-fantasy-worlds",
+    "kind": "prompts",
+    "name": "Psychedelic Fantasy Worlds",
+    "blurb": "Trippy fantasy landscape art prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "fantasy",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-paper-diorama-poster",
+    "kind": "prompts",
+    "name": "Painted Paper Diorama Poster Art",
+    "blurb": "Layered paper-craft poster prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "poster",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-mythic-clipart",
+    "kind": "prompts",
+    "name": "Cool Blue Mythic Clipart",
+    "blurb": "Mythic creature clipart prompts in blue tones.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "clipart",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-editorial-illustrations",
+    "kind": "prompts",
+    "name": "Textured Monoprint Editorial Illustrations",
+    "blurb": "Editorial illustration prompts with texture.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "editorial",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-epic-fantasy-covers",
+    "kind": "prompts",
+    "name": "Vintage Epic Fantasy Covers",
+    "blurb": "Fantasy book-cover art prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "books",
+      "fantasy",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-christmas-illustrations",
+    "kind": "prompts",
+    "name": "Christmas Girls Fashion Illustrations",
+    "blurb": "Holiday fashion illustration prompts.",
+    "url": "https://promptbase.com/best-ai-prompts",
+    "tags": [
+      "art",
+      "fashion",
+      "holiday",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-pixel-orbs",
+    "kind": "prompts",
+    "name": "Elements Under Glass Pixel Orbs",
+    "blurb": "Pixel-art orb illustration prompts.",
+    "url": "https://promptbase.com/best-ai-prompts",
+    "tags": [
+      "art",
+      "pixel-art",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-cottage-seamless-paper",
+    "kind": "prompts",
+    "name": "Cottage Chintz Seamless Papers",
+    "blurb": "Seamless pattern paper prompts.",
+    "url": "https://promptbase.com/best-ai-prompts",
+    "tags": [
+      "art",
+      "pattern",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-golden-hour-portraits",
+    "kind": "prompts",
+    "name": "Dramatic Golden Hour Portraits",
+    "blurb": "Golden-hour portrait photo prompts.",
+    "url": "https://promptbase.com/best-ai-prompts",
+    "tags": [
+      "photo",
+      "portrait",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-vector-tshirt",
+    "kind": "prompts",
+    "name": "Vector Silhouette T-shirt Designs",
+    "blurb": "Silhouette tee graphic prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "design",
+      "merch",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-fashionable-tee",
+    "kind": "prompts",
+    "name": "Fashionable Tshirt Designs",
+    "blurb": "Trendy tee graphic prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "design",
+      "fashion",
+      "merch",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-tarot-arcana",
+    "kind": "prompts",
+    "name": "Fantasy Major Arcana Tarot Cards",
+    "blurb": "Tarot card art prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "art",
+      "fantasy",
+      "promptbase",
+      "tarot"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-retro-anime",
+    "kind": "prompts",
+    "name": "Retro Anime Characters",
+    "blurb": "Retro anime character prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "anime",
+      "art",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-dnd-terrain",
+    "kind": "prompts",
+    "name": "Tabletop Game Terrain Maps",
+    "blurb": "DnD battlemap art prompts.",
+    "url": "https://promptbase.com/midjourney",
+    "tags": [
+      "gaming",
+      "maps",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-startup-logo-architect",
+    "kind": "prompts",
+    "name": "Vibrant Startup Logo Identity Architect",
+    "blurb": "Startup logo identity prompts.",
+    "url": "https://promptbase.com/logos",
+    "tags": [
+      "design",
+      "logo",
+      "promptbase",
+      "startup"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-mascot-logos",
+    "kind": "prompts",
+    "name": "Custom Esports Mascot Logo Vectors",
+    "blurb": "Esports mascot logo prompts.",
+    "url": "https://promptbase.com/logos",
+    "tags": [
+      "design",
+      "gaming",
+      "logo",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-monoline-emblems",
+    "kind": "prompts",
+    "name": "Monoline Emblems",
+    "blurb": "Single-weight-line emblem logo prompts.",
+    "url": "https://promptbase.com/modern-logos",
+    "tags": [
+      "design",
+      "logo",
+      "promptbase"
+    ],
+    "past": false
+  },
+  {
+    "id": "prompts/base-art-deco-emblems",
+    "kind": "prompts",
+    "name": "Art Deco Emblems",
+    "blurb": "Deco-style emblem logo prompts.",
+    "url": "https://promptbase.com/modern-logos",
+    "tags": [
+      "design",
+      "logo",
+      "promptbase",
+      "retro"
+    ],
+    "past": false
+  }
+]

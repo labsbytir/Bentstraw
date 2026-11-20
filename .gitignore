@@ -2,3 +2,5 @@ node_modules/
 dist/
 public/orama.json
 data/bentstraw/
+data/raw/
+.env
