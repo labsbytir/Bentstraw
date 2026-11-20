@@ -5,3 +5,6 @@ data/bentstraw/
 data/raw/
 .env
 # build artifact, regenerate via npm run search-index
+Reference Site Templates/
+deploy/bin/
+.DS_Store
