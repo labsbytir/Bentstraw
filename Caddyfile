@@ -1,0 +1,12 @@
+# bentstraw.com origin behind Cloudflare proxy (use Full Strict on the zone).
+# Deploy: copy to /srv/bentstraw/Caddyfile (see systemd/bentstraw.service).
+# Caddy gets a Let's Encrypt cert automatically; HTTP->HTTPS is default.
+bentstraw.com, www.bentstraw.com {
+	root * /srv/bentstraw/dist
+	encode gzip
+	file_server
+	handle_errors {
+		rewrite * /404.html
+		file_server
+	}
+}

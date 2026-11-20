@@ -1,0 +1,17 @@
+# No Docker: Caddy serves the Astro static build directly.
+# Install: cp Caddyfile /srv/bentstraw/Caddyfile, cp -r dist /srv/bentstraw/dist,
+# cp this file to /etc/systemd/system/bentstraw.service, then
+# systemctl daemon-reload && systemctl enable --now bentstraw
+[Unit]
+Description=bentstraw.com (Caddy file-server for Astro dist)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/caddy run --config /srv/bentstraw/Caddyfile --adapter caddyfile
+WorkingDirectory=/srv/bentstraw
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
